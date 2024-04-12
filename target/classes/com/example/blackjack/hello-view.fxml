@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.blackjack.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Arc fill="#2ba145" length="180.0" radiusX="550.0" radiusY="500.0" rotate="360.0" startAngle="180.0" stroke="#806837" strokeType="INSIDE" strokeWidth="10.0" type="ROUND">
+         <VBox.margin>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </VBox.margin></Arc>
+      <Pane prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</VBox>
